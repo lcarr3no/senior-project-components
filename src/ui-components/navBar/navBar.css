@@ -1,0 +1,42 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    position: static;
+    width: 5em;
+    height: 5em;
+    margin-left: 20px;
+}
+
+.amplify-searchfield {
+    --amplify-components-button-color: black;
+    --amplify-components-button-border-color: black;
+    --amplify-components-fieldcontrol-border-color: black;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 10em;
+    position: center;
+}
+
+.profilePic{
+    width: 70px;
+    height: 55px;
+    margin-left: 150px;
+    padding-right: 20px;
+
+}
+.uploadButton{
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
