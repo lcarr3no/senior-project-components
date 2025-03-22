@@ -1,4 +1,4 @@
-!!!!Once downloaded, npm install i to get all dependencies neede for this project!!!!
+!!!! Once downloaded, 'npm install i' to get all dependencies neede for this project!!!!
 
 # Getting Started with Create React App
 
