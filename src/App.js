@@ -8,7 +8,17 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 function App() {
-  const router = createBrowserRouter();
+  const router = createBrowserRouter([
+    {
+    path: '/',
+    element: <HomePage />
+   },
+   {
+      path: '/upload',
+      element: <UploadPage />
+   }
+]);
+
   return (
     
       <div className="App">
