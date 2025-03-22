@@ -12,16 +12,16 @@
     width: 5em;
     height: 5em;
     margin-left: 20px;
+    cursor: pointer;
 }
 
-.amplify-searchfield {
-    --amplify-components-button-color: black;
-    --amplify-components-button-border-color: black;
-    --amplify-components-fieldcontrol-border-color: black;
+.searchField{
     width: 50%;
-    margin: 0 auto;
-    margin-left: 10em;
-    position: center;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 .profilePic{
@@ -40,3 +40,4 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
