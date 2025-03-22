@@ -1,18 +1,34 @@
 import './App.css';
 import React from 'react';
 import NavBar from './ui-components/navBar/navBar';
-import UploadPage from './ui-components/uploadPage/uploadPage';
+import UploadPage from './pages/uploadPage';
+import HomePage from './pages/homePage';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 function App() {
-  return (
-    <div className="App">
-      {/*
-       <NavBar />
-      */}
-      <UploadPage />
 
-    </div>
+  const router = createBrowserRouter([
+    {
+    path: '/',
+    element: <HomePage />
+   },
+   {
+      path: '/upload',
+      element: <UploadPage />
+   }
+]);
+
+  return (
+    
+      <div className="App">
+
+     
+        <RouterProvider router={router}/ >
+
+      </div>
+
   );
 }
 
